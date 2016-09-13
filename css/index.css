@@ -10,6 +10,7 @@ h3,
 h4,
 h5 {
     font-family: "RobotoDraft", "Roboto", sans-serif;
+    margin-left: 5px;
 }
 
 .w3-sidenav a {
@@ -20,6 +21,11 @@ h5 {
 img {
     max-width: 100%;
     height: auto;
+    margin-left: 5px;
+}
+
+.cours {
+    margin-left: 250px;
 }
 
 #x {
@@ -50,3 +56,39 @@ td,
 th {
     border: 1px;
 }
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    float: left;
+}
+
+.v {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1080px) {
+    .container {
+        text-align: center;
+        position: relative;
+        width: 49%;
+        height: 0;
+        margin-left: 13px;
+        padding-bottom: 40%;
+        float: left;
+    }
+    .v {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        }
+    }
