@@ -33,6 +33,7 @@ function get() {
     l = url.length;
     url = url.slice(25, l);
     set(url);
+    alert(url);
 }
 
 function set(adresse) {
@@ -41,6 +42,7 @@ function set(adresse) {
     case "#cnoel":
         //Commandes pour afficher, à noter, c'est le même code pour ouvrir Activité
         $("#cnd-contenu").attr("data-include", "autres/concertnoel.html");
+        alert(adresse);
         render();
         break;
 
